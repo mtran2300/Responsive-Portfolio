@@ -259,6 +259,11 @@ input[type=submit] {
       font-size:95%;
       line-height:1.75;
      }
+
+     .work{
+        width: 358px;
+     }
+   }  
 @media screen and (max-width:768px) {
     .container{
         max-width: 695px;
@@ -276,6 +281,10 @@ input[type=submit] {
       float: right;
       margin-bottom: 35px;
       max-width: 100%;
+    }
+    .work{
+      width: 296px;
+    }
   }
 @media screen and (max-width:640px){
 
@@ -323,3 +332,8 @@ input[type=submit] {
       padding-left:50px;
       padding-right: 0px;
     }
+    
+    .work{
+      width: 520px;
+    }
+  }
